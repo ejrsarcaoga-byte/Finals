@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ellaine Joyce Sarcaoga | Portfolio</title>
+<meta name="description" content="Portfolio of Ellaine Joyce Sarcaoga, 3rd year BSIT student at PCU.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>✨</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="logo" href="#top">EJS</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO: change your name, course, and intro -->
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Hi, I'm <span>Ellaine Joyce Sarcaoga.</span></h1>
+        <p>3rd year BSIT student who turns ideas into clean designs in Figma and into working web pages. Learning something new with every project.</p>
+        <a class="btn primary" href="#projects">View projects</a>
+        <a class="btn ghost" href="#contact">Contact me</a>
+      </div>
+      <div class="photo" aria-label="Profile photo placeholder">EJ</div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div>
+        <h2>About me</h2>
+        <p>I'm a 3rd year BSIT student at PCU. I'm currently learning web development, and I enjoy turning ideas into designs and real pages.</p>
+        <p>Outside of school, I like to unwind with games and music, and stay active with a good badminton or volleyball match.</p>
+        <h3 class="sub">Interests</h3>
+        <ul class="skills interests">
+          <li>Gaming</li><li>Music</li><li>Badminton</li><li>Volleyball</li><li>Watching shows &amp; movies</li>
+        </ul>
+        <p class="facts"><strong>Location:</strong> Dasmariñas, Cavite, Philippines<br><strong>Course:</strong> BS Information Technology, 3rd year<br><strong>School:</strong> PCU</p>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        <div class="skill-list">
+          <div class="skill"><strong>Figma</strong><span>Designing layouts and interfaces</span></div>
+          <div class="skill"><strong>GitHub</strong><span>Saving and sharing code</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS: replace with your real projects -->
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <div class="thumb">Portfolio</div>
+          <div class="body">
+            <h3>This portfolio website</h3>
+            <p>My personal portfolio, built for Web Systems and Technologies. It is responsive and has a contact form that opens your email app.</p>
+            <span class="tags">HTML · CSS · JavaScript</span>
+            <a class="link" href="https://github.com/your-username/your-repo" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <p>Have a question or want to collaborate? Write your message here and your email app will open.</p>
+      <form id="contactForm">
+        <label>Name <input type="text" id="name" required></label>
+        <label>Email <input type="email" id="email" required></label>
+        <label>Message <textarea id="message" required></textarea></label>
+        <button type="submit">Send message</button>
+        <p id="msg" role="status"></p>
+      </form>
+      <p class="direct">Prefer email? Write to <a id="emailLink" href="#">your email</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Ellaine Joyce Sarcaoga. Made for Web Systems and Technologies.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
